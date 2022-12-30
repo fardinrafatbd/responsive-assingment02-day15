@@ -1,7 +1,7 @@
 /* common styles */
 body{
     font-family: 'Poppins', sans-serif;
-
+    margin: 0;
 }
 
 main{
@@ -22,6 +22,7 @@ Banner -part
     border-radius: 30px;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 .banner-left{
     width: 531px;

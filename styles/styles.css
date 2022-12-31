@@ -202,11 +202,9 @@ footer hr{
             Media query
 ----------------------------- */
 @media only screen and (max-width:400px) {
-    
+    /* bannerrrrrrr */
     .banner{
         flex-direction: column;
-        /* align-items: center;
-        justify-content: center; */
         width: 100%;
         height: 472px;
         border-radius: 10px;
@@ -245,8 +243,63 @@ footer hr{
         height: 245px;
     }
 
-    .container, footer{
+    
+/* container-match list */
+
+.container{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top:8px;
+}
+.match-link{
+    background-color:#FFFFFf;
+    
+}
+.match-link-button{
+    border:1px solid #E8E8E8;
+}
+.blogs{
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 0;
+}
+.mobile-view{
+    display: none;
+}
+.view-tab-mobile{
+    background-color: #DD0000;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 12px 29px;
+    margin-top: 50px;
+}
+.view-tab-mobile a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* ...footer */
+footer{
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+}
+footer hr{
+    width: 86%;
+}
+.extra-links{
+    flex-direction: column;
+    align-items: center;
+
+}
+.extra-links p{
+    margin-left: 0px;
+
+}
+
+}
+
+@media screen and (min-width:821px) {
+    .view-tab-mobile{
         display: none;
     }
 }
-

@@ -90,6 +90,7 @@ Banner -part
                     text-decoration: none;
                     font-weight: 500;
                     font-size: 20px;
+                    font-family: 'Poppins', sans-serif;
                 
                 }
                 .same-item{
@@ -102,65 +103,59 @@ Banner -part
                     color: #FFFFFF;
                 }
 
+/* Upcoming match details */
 
-/* container//match-article */
-.blogs{
+.upcomig-match{
+    color: #161616;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 24px;
     margin-left: 24px;
 }
-.blog{
+.match{
     width: 312px;
-    height: 362px;
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 53px 30px; */
     border: 1px solid #E8E8E8;
     border-radius: 10px;
 }
-.thumbnail img{
-    width: 312px;
-    height: 175px;
-}
-.blog-details{
-    padding: 20px;
-}
-.blog-button{
-    font-weight: 500;
-    font-size: 16px;
-    color: #161616;
-    padding: 4px 16px 4px 16px;
-    border: 1px solid #161616;
-    border-radius: 5px;
-    background-color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 15px;
-
-}
-.blog-title{
-    font-weight: 600;
-    font-size: 18px;
-    color: #161616;
-    margin-bottom: 20px;
-
-}
-.blog-info{
+.match-thumbnail{
     display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
-.time{
-    color: #161616CC;
+.match-thumbnail h3{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.match-thumbnail img{
+    width: 93.04px;
+    height: 56.18px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.match-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.match-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.match-time{
     font-weight: 400;
     font-size: 16px;
+    color: #4d4d4d;
 }
-.text{
-    color: #161616CC;
-    font-weight: 400;
-    font-size: 16px;
-    margin-left: 30px;
-}
-.fa-clock , .fa-envelope{
-    width: 24px;
-    height: 24px;
-}
-
 
 
 /* footer */
